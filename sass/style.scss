@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #f3f6f8;
+  font-family: 'ProximaNova-Regular';
+  padding: 40px 15px 40px 15px;
+  .title-page {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 60px 0;
+  }
+  .data-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #424242;
+    padding: 10px 15px;
+    border-radius: 4px;
+    .image-wrapper {
+      padding: 0 5px 5px 5px;
+      margin: 5px 0 5px 0;
+      cursor: pointer;
+    }
+  }
+  .data-load-block {
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 0;
+    background: #f7f7f7;
+    .load-image,.load-title,.load-text {
+      padding: 30px;
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      img,h3,p{
+        margin: 0;
+        color: #434343;
+      }
+    }
+    .load-title {
+      h3 {
+        text-transform: uppercase;
+      }
+    }
+    .load-text {
+      border-top: 1px solid #dbdbdb;
+    }
+  }
+}
